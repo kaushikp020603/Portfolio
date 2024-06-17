@@ -1,0 +1,7 @@
+[build]
+  command = "npm install --force && npm run build"
+  publish = "build"  # Adjust this as needed for your project
+
+[context.production.environment]
+  NODE_ENV = "production"
+  API_URL = "https://api.example.com"
